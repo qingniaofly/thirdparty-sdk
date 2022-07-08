@@ -1,0 +1,38 @@
+{
+  "name": "thirdparty-sdk",
+  "version": "0.0.1",
+  "description": "thirdparty-sdk",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "typing": "./index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yc.tao",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qingniaofly/thirdparty-sdk.git"
+  },
+  "keywords": [
+    "sdk",
+    "thirdparty-sdk",
+    "music-sdk",
+    "novel-sdk",
+    "node",
+    "javascript"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qingniaofly/thirdparty-sdk/issues"
+  },
+  "dependencies": {
+    "loadsh": "^0.0.4",
+    "axios": "^0.27.2",
+    "node-fetch": "^3.2.4",
+    "cheerio": "^1.0.0-rc.10",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
